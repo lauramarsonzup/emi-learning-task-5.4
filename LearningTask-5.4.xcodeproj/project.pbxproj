@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0324CE22290C0A9A00337421 /* Autor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0324CE21290C0A9A00337421 /* Autor.swift */; };
 		58C495FA27D9239400DCA879 /* AutorRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C495F927D9239400DCA879 /* AutorRepository.swift */; };
 		58E6BBBC27D8E29000979DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E6BBBB27D8E29000979DED /* AppDelegate.swift */; };
 		58E6BBBE27D8E29000979DED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E6BBBD27D8E29000979DED /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0324CE21290C0A9A00337421 /* Autor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autor.swift; sourceTree = "<group>"; };
 		58C495F927D9239400DCA879 /* AutorRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorRepository.swift; sourceTree = "<group>"; };
 		58E6BBB827D8E29000979DED /* LearningTask-5.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-5.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E6BBBB27D8E29000979DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0324CE1D290C007A00337421 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				58E6BBBF27D8E29000979DED /* AutorFormViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0324CE1E290C009500337421 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58E6BBC127D8E29000979DED /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0324CE1F290C00A300337421 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58C495F927D9239400DCA879 /* AutorRepository.swift */,
+				0324CE21290C0A9A00337421 /* Autor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0324CE20290C00B900337421 /* Supportive Files */ = {
+			isa = PBXGroup;
+			children = (
+				58E6BBBB27D8E29000979DED /* AppDelegate.swift */,
+				58E6BBBD27D8E29000979DED /* SceneDelegate.swift */,
+				58E6BBC627D8E29600979DED /* LaunchScreen.storyboard */,
+				58E6BBC927D8E29600979DED /* Info.plist */,
+			);
+			name = "Supportive Files";
+			sourceTree = "<group>";
+		};
 		58E6BBAF27D8E29000979DED = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +96,11 @@
 		58E6BBBA27D8E29000979DED /* LearningTask-5.4 */ = {
 			isa = PBXGroup;
 			children = (
-				58E6BBC927D8E29600979DED /* Info.plist */,
-				58E6BBBB27D8E29000979DED /* AppDelegate.swift */,
-				58E6BBBD27D8E29000979DED /* SceneDelegate.swift */,
-				58E6BBC627D8E29600979DED /* LaunchScreen.storyboard */,
+				0324CE20290C00B900337421 /* Supportive Files */,
 				58E6BBC427D8E29600979DED /* Assets.xcassets */,
-				58E6BBC127D8E29000979DED /* Main.storyboard */,
-				58E6BBBF27D8E29000979DED /* AutorFormViewController.swift */,
-				58C495F927D9239400DCA879 /* AutorRepository.swift */,
+				0324CE1F290C00A300337421 /* Models */,
+				0324CE1E290C009500337421 /* View */,
+				0324CE1D290C007A00337421 /* Scenes */,
 			);
 			path = "LearningTask-5.4";
 			sourceTree = "<group>";
@@ -144,6 +179,7 @@
 				58E6BBC027D8E29000979DED /* AutorFormViewController.swift in Sources */,
 				58E6BBBC27D8E29000979DED /* AppDelegate.swift in Sources */,
 				58E6BBBE27D8E29000979DED /* SceneDelegate.swift in Sources */,
+				0324CE22290C0A9A00337421 /* Autor.swift in Sources */,
 				58C495FA27D9239400DCA879 /* AutorRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
